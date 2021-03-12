@@ -7,7 +7,7 @@ import {$chatList} from "./models/models";
 import {links} from "../../../links";
 
 
-export const Chats = () => {
+export const ChatList = () => {
 
     const chats = useStore($chatList)
 
@@ -26,7 +26,7 @@ export const Chats = () => {
 }
 
 export const ChatListStackScreen = () => StackScreenCreator({
-    component: Chats,
+    component: ChatList,
     title: 'Chats',
     link: links.chatList,
     headerShown: true

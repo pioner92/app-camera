@@ -1,7 +1,7 @@
 import {CameraStackScreen} from "../camera-screen/camera-screen";
 import React from "react";
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
-import {ChatListStackScreen} from "./chat-list/chats";
+import {ChatListStackScreen} from "./chat-list/chat-list";
 
 const Tab = createBottomTabNavigator();
 
